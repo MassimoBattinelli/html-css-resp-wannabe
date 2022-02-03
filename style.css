@@ -71,3 +71,44 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 419px) {
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.left img{
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+}
+
+.left h3{
+  display: inline-block;
+}
+
+.right img{
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+
+}
+
