@@ -90,7 +90,7 @@ html{
 }
 
 .row{
-  width: 420px;
+  width: 100%;
   margin: 0;
   text-align: center;
   padding-bottom: 20px;
@@ -109,7 +109,7 @@ html{
 
 #lezioni .row>.left,
 #lezioni .row>.right {
-  width: 420px;
+  width: 100%;
   float: none;
   margin-bottom: 0.7rem;
   padding-right: 5px;
@@ -124,7 +124,7 @@ html{
 #steps .row>.left,
 #steps .row>.central,
 #steps .row>.right {
-  width: 420px;
+  width: 100%;
   float: none;
   margin-bottom: 0.7rem;
   padding-right: 5px;
@@ -141,7 +141,7 @@ html{
 #why .row>.first,
 #why .row>.second,
 #why .row>.third{
-  width: 420px;
+  width: 100%;
   float: none;
   margin-top: 1em;
   padding-right: 5px;
